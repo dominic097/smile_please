@@ -1,0 +1,39 @@
+body {
+    background: url("../bg.png") no-repeat;
+    background-size: cover;
+    background-clip: border-box;
+}
+
+.container {
+    position: relative;
+    height: 14rem;
+    border: 1px solid;
+}
+
+.imagefyWrapper {
+    position: absolute;
+    top: 45%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+
+.imagefyWrapper label {
+    color: rgb(253, 1, 1);
+    font-weight: 700;
+}
+
+.imagefy-caption {
+    display: block;
+}
+
+.imagefyWrapper input {
+    width: 300px;
+    margin: 2% 0 0 20%;
+    height: 21px;
+    background-color: rgba(224, 224, 224, 0.29);
+}
+
+.imagefyWrapper a {
+    color: #49a9da;
+    cursor: pointer;
+}
